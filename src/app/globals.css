@@ -1,0 +1,18 @@
+:root {
+  --surface-main: #f3f5eb;
+  --surface-dim: #afafaa;
+  --surface-container-low: #e8eae0;
+  --surface-container-normal: #ececec;
+  --surface-container-high: #dcded3;
+  --surface-container-highest: #e1e3da;
+}
+
+body {
+  margin: 0;
+  background-color: var(--surface-main);
+  width: 100vw;
+
+  font-family: 'IBM Plex Sans', 'M PLUS 2', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
